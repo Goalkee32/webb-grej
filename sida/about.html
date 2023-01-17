@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min hemsida</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="index.html">
+    <link href="about.htmls">
+    <link href="courses.html">
+    <link href="documentation.html">
+    <link href="interests.html">
+</head>
+<body class="index">
+    <div class="task_bar">
+        <div class="task_button">
+            <a href="index.html">Start</a>
+        </div>
+        <div class="task_button">
+            <a href="about.html">Om mig</a>
+        </div>
+        <div class="task_button">
+            <a href="courses.html">Kurser</a>
+        </div>
+        <div class="task_button">
+            <a href="interests.html">Intressen</a>
+        </div>
+        <div class="task_button">
+            <a href="documentation.html">Dokumentation</a>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="about">
+        <h1>Om mig</h1>
+        <h2>Lite kort om mig</h2>
+        <br>
+        <br>
+        <table>
+            <ul>
+                <li>Ambitiös</li>
+                <li>Motiverad</li>
+                <li>Engagerad</li>
+            </ul>
+        </table>
+        <br>
+        <p>Jag jobbade under sommaren 2022 som Spårvägsmiljötekniker på Göteborgs spårvägar. <br> Där fick jag ta ansvar över ett arbetslag och se till att målen blev nådda.</p>
+        <br>
+        <img src="img/albinlof.jpg" class="image_albin">
+        <h2>Vill du kontakta mig? Använd formuläret nedan</h2>
+        <form>
+            <div class="name-box">
+                <fieldset class="field1">
+                <legend>Namn</legend>
+                <label for="first-name">Förnamn:</label>
+                <br>
+                <input type="text" name="first-name" id="first-name">
+                <br>
+                <br>
+                <label for="family-name">Efternamn:</label>
+                <br>
+                <input type="text" name="family-name" id="family-name">
+                <br>
+                <br>
+                </fieldset>
+            </div>
+            <div>
+                <!-- Formulär för att kontakta mig. Ej kopplat till en server så svaren lagras inte. -->
+                <fieldset class="field1">
+                <legend>Kontakt</legend>
+                <h5>Varför kontaktar du mig?</h5>
+                <input type="radio" name="question" id="job_inquiry" value="job_inquiry">
+                <label for="job_inquiry">Jobb förfrågan</label>
+                <br>
+                <input type="radio" name="question" id="personal_question" value="personal_question">
+                <label for="personal_question">Personlig fråga</label>
+                <br>
+                <input type="radio" name="question" id="other_question" value="other_question">
+                <label for="other_question">Annat</label>
+                <br>
+                <br>
+                <label for="comment">Skriv här: </label>
+                <br>
+                <!-- Jag använder textarea för att få den här expanderbara boxen istället för en vanlig input. -->
+                <textarea id="comment" name="comment" rows="5" cols="33"></textarea>
+                </fieldset>
+            </div>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+    
+    </div>
+
+    <div class="green-block2"></div>
+    <div class="red-block2"></div>
+
+    <div class="turquoise-block2"></div>
+    <div class="blue-block2"></div>
+
+    <div class="yellow-block2"></div>
+    <div class="orange-block2"></div>    
+
+    <div class="pink-block2"></div>
+    <div class="purple-block2"></div>  
+
+    <div class="black-block2"></div>
+    <div class="brown-block2"></div>
+
+    <br>
+    <hr>
+    <br>
+    <p class="copyright"><u>Kontaktuppgifter</u><br>Email: albin.lof@elev.ga.ntig.se <br> Tel: 072-589 00 55</p>
+    <p class="copyright">&#169; 2022 Albin Löf</p>
+
+
+</body>
+</html>
